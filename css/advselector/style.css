@@ -1,0 +1,49 @@
+/* p{
+    color:blueviolet;
+} */
+/* descendent selector */
+
+div p{
+    color:brown;
+}
+p.para{
+    color:aqua;
+}
+
+/* child selector */
+
+ul>li{
+    color: magenta;
+}
+li+li+li{
+    color:red;
+}
+
+
+/* immediate sibling */
+/* #faCity{
+
+}
+li#favCity{
+
+}
+ol#lifavCity{
+
+} */
+ /* #favCity +li{
+    color:chartreuse;
+ } */
+
+ /* genral sibling */
+
+/* ---------------------------------------------------------------- */
+a:link{
+    color: purple;
+}
+a:visited{
+    color :aqua;
+    text-decoration: line-through;
+}
+a:hover{
+    color: red;
+}
