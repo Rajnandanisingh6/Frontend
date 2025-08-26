@@ -1,0 +1,9 @@
+.container{
+    height: 60vh;
+    border: 3px solid magenta;
+    width: 40vw;
+}
+.child{
+    border: 3px solid skyblue;
+    height: 40%;
+}

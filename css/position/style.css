@@ -1,0 +1,26 @@
+.container{
+    height: 200vh;
+    border: 3px solid blue;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 3px solid red;
+}
+.child1{
+    position: relative;    /* top left right buttom*/ /*apne original position ke respect me kaam karta hai*/
+    left: 40px;
+    top:50px;
+}
+.child2{
+    position: absolute;  /*viewport par kam karta hai */
+    top:0;
+    right: 0;
+}
+.child3{
+    position: fixed;
+}
+.child4{
+    position: sticky;
+    top: 50px;
+}
