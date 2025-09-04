@@ -47,7 +47,7 @@
     justify-content: space-around;
 }
 .img{
-    width: 1500;
-    height:800 ;
+    width: 1500px;
+    height:800px ;
     background-image: url('https://www.w3schools.com/w3images/architect.jpg');
 }
