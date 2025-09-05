@@ -1,0 +1,19 @@
+.containner{
+    border: 2px solid navy;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    gap: 10px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid blueviolet;
+
+
+}
+.child3{
+     order: -3; /* by default sab ka zero hota hai */
+     flex-shrink: 3; /* default 1 */
+}

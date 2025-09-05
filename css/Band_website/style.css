@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+.navbar_left a{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin-left: 30px;
+    gap: 10px;
+}
+.right {
+    color: white;
+    margin-right: 20px;
+}
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.w3schools.com/w3images/la.jpg');
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+.main_container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    gap: 15px;
+    color: white;
+}
