@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    grid-template-rows: 100px 200px 300px 400px;
+    grid-template-columns: 100px 120px 200px 250px 300px;
+}
+.child1{
+    background-color: yellow;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.child2{
+    background: blueviolet;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+/* grid-area */ 
