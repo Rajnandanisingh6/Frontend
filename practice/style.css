@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header{
+    border: 2px solid black;
+    color: white;
+    text-align: center; 
+    background-color:  purple;
+    padding: 20px;
+}
+header h1{
+    font-size: 36px;
+    margin: 0;
+     
+}
+.content{
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.biography{
+    background-color:  wheat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1) ;
+    margin-bottom: 20px;
+}
+.biography h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Achivements{
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.Achivements h2{
+    
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.Achivements ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.Achivements li{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: purple;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+

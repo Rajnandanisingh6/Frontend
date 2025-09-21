@@ -72,8 +72,8 @@
     position: absolute;
     bottom: 230px;
     left: -400px;
-    animation: codyMove 3s ease-in-out 6s forwards,
-               codyInRocket 1s ease-out 9.5s forwards;
+    animation: codyMove 3s ease-out 6s forwards,
+               codyInRocket 1s ease-in-out 9.5s forwards;
     
 }
 
