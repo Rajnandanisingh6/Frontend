@@ -33,7 +33,8 @@
     border-radius: 80px;
 }
 .content-area{
-    height:475px ;
+    /* 475 */
+    height:552px ;  
     color: black;
     background: #F7F4ED;
     border-bottom: 2px solid black;
@@ -74,7 +75,8 @@
     
 }
 .buttom {
-    height: 122px;
+    /* 122 */
+    height: 47px;
     display: flex;
     justify-content: center;
     align-items: center;
