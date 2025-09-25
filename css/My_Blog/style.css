@@ -66,8 +66,36 @@ button{
     cursor: pointer;
     text-decoration: none;
     font-size: 1em;
-    display: block;
-    
-    
+    display: block;   
+}
+.rightcontainer{
+    height: 600px;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    float: right;
+}
+.rightcontainer h2{
+    margin-bottom: 20px;
+    color: #13d6b5;
+    text-align: center;
+}
+p.form-group{
+    margin-bottom: 15px;
+}
+.rightcontainer img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
