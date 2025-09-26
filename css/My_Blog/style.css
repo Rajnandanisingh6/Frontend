@@ -111,3 +111,41 @@ button:hover {
     width: 90%;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.leftcontainer:hover, .rightcontainer:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+.leftcontainer, .rightcontainer {
+  transition: transform 0.3s ease;
+}
+.leftcontainer img:hover, .rightcontainer img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.leftcontainer img, .rightcontainer img {
+  transition: transform 0.3s ease;
+}
+button:active {
+  transform: scale(0.95);
+}
+button {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+button {
+  font-weight: bold;
+}
+button {
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  letter-spacing: 1px;
+}
