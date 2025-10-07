@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <style>
+    .grid-container{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      grid-gap:15px;
+      padding:20px;
+    }
+    .grid-item{
+      background-color:blue;
+      color:white;
+      text-align:center;
+      padding:40px;
+      font-size:20px;
+      border-radius:10px;
+    }
+    @media(max-width:768px){
+      .grid-container{
+        grid-template-columns:1fr;
+      }
+    }
+    
+    </style>
+    <!--<title>Hello, World!</title>-->
+    <!--<link rel="stylesheet" href="styles.css" />-->
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">Column1</div>
+      <div class="grid-item">Column2</div>
+      <div class="grid-item">column3</div>
+    </div>
+    
+   
+  </body>
+</html>
