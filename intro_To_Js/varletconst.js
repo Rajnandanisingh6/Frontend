@@ -25,3 +25,11 @@ let b=32;
 const c=12;
 
 console.log(a,b,c);
+
+console.log(x);
+var x=20;
+console.log(x);
+
+console.log(y);
+let x=20;
+console.log(y);
