@@ -77,5 +77,9 @@
 
 
 
+// reduce method kya karta hai ki ye array ke sare elements ko ek single value me convert kar deta hai.
+// ye ek callback function leta hai jisme 2 parameters hote hai acc( accumulator) and current item.
+// acc wo value hoti hai jo hum accumulate kar rahe hote hai aur current item wo element hota hai jo abhi process ho raha hota hai.
+// reduce method me hum ek initial value bhi de sakte hai acc ke liye, agar hum initial value nahi dete to acc ki initial value array ka pehla element hota hai aur current item dusra element hota hai.
 
 
