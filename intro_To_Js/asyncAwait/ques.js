@@ -39,7 +39,7 @@
 
 
 async function asyncFun(){
-    console.log("Async function");
+    console.log("Async function");     
     return "Async result ";
 }
 
