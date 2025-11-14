@@ -26,3 +26,4 @@ img.setAttribute('src','https://images.unsplash.com/photo-1503023345310-bd7c1de6
 // para.classList.toggle('one');  //ye kya karta hai ki agr class hai to remove krdega agr nhi hai to add krdega
 // para.classList.toggle('one');
 // para.classList.toggle('one');
+
