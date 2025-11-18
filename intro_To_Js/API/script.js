@@ -7,4 +7,9 @@ fetch(URL)
      })
      .then((data)=>{
         console.log(data);
+
+
+      //   const h2 =document.createElement('h2');
+      //   h2.innerText=`${data.setup} ;
+  
      }) 
