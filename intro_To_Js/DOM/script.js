@@ -1,4 +1,4 @@
-// const head = document.getElementById('head');
+// const head = document.getElementById('head'); //kya return karta hai ye
 // //const head = document.querySelector('#head');
 // console.log(head);
 

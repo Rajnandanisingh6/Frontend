@@ -4,7 +4,7 @@ function abc(){
     h1.style.color="green"
 }
 
-function copyfun(){
+function copyfun(){ // event listener kya hota hai 
     console.log("copy fun")
 }
 

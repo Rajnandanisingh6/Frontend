@@ -8,3 +8,18 @@ function fun(){ // ak higher order function jo ak function ke andar dusra functi
 
 
 //call back function -- function ko argument ke roop me pass karna
+// setTimeout(() => console.log("X"), 1000);
+// setTimeout(() => console.log("Y"), 500);
+// console.log("Z");
+
+// setTimeout(() => console.log("P"), 0);
+// console.log("Q");
+//output 
+
+function notify(cb) {
+  console.log("Notify Start");
+  cb();
+  console.log("Notify End");
+}
+notify(() => console.log("Callback Run"));
+
